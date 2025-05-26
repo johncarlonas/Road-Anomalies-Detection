@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+  }
+  
+  .video-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background-color: #28a092;
+  }
+  
+  .back-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .timestamp-box {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .video-container {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .video-container img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
